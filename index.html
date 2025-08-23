@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MP Speedtest</title>
+<link rel="stylesheet" href="color.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">MP Speedtest</div>
+    <div class="beta-tag">BETA</div>
+  </header>
+
+  <!-- Main card -->
+  <main class="card">
+    <!-- Mittarit -->
+    <canvas id="speedometer" width="300" height="150"></canvas>
+    <div id="speedText">0 Mbps</div>
+
+    <!-- Painike -->
+    <button id="speedNowBtn">Speed NOW!</button>
+
+    <!-- Tulokset -->
+    <div class="results">
+      <div id="download">Download: –</div>
+      <div id="upload">Upload: –</div>
+      <div id="ping">Ping: –</div>
+      <div id="ip">IP: –</div>
+      <div id="isp">ISP: –</div>
+      <div id="location">Sijainti: –</div>
+    </div>
+  </main>
+
+<script src="speedtest.js"></script>
+</body>
+</html>
